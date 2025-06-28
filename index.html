@@ -9,24 +9,35 @@
         <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
         <title>Car Rental Service</title>
     </head>
-    <body class="bg-blue-50">
+    <body class="w-dvw">
         <!-- Navbar -->
-        <nav class="py-6 px-12 flex justify-between z-20 bg-white fixed top-0 left-0 right-0 shadow-lg text-lg lg:py-10 lg:text-xl">
+        <nav class="z-20 bg-white py-4 px-6 flex justify-center fixed top-0 left-0 right-0 shadow-lg text-lg lg:px-12 lg:py-6 lg:text-xl">
+            <!-- Logo -->
             <div id="logo" class="flex items-baseline">
-                <div id="circle" class="aspect-square h-16 rounded-full bg-blue-600 text-white text-7xl font-medium flex items-center justify-center">R</div>
-                <p class="text-5xl font-medium text-blue-600 relative right-2">ent.</p>
+                <div id="circle" class="aspect-square h-14 rounded-full bg-blue-600 text-white text-6xl font-medium flex items-center justify-center lg:h-16 lg:text-7xl">R</div>
+                <p class="text-4xl font-medium text-blue-600 relative right-2 lg:text-5xl">ent.</p>
             </div>
-            <div id="nav-btn" class="w-sm flex justify-between">
-                <button class="relative text-gray-600 font-medium hover:font-bold hover:text-black">Home</button>
-                <button class="relative text-gray-600 font-medium hover:font-bold hover:text-black">Booking</button>
-                <button class="relative text-gray-600 font-medium hover:font-bold hover:text-black">Promo</button>
-                <button class="relative text-gray-600 font-medium hover:font-bold hover:text-black">Help</button>
-            </div>
-            <div id="loc" class="flex gap-2">
-                <p class="text-lg">Your location</p>
-                <img src="assets/img/location-navbar.svg" alt="location" class="w-20" />
+            <img src="assets/img/menu.png" alt="Menu" id="menu-btn" class="h-14 sm:block order-1 lg:hidden lg:order-0">
+            <div class="w-3/4 flex justify-end gap-16 lg:justify-evenly">
+                <div id="nav-btn" class="flex justify-center gap-16 order-1 lg:w-full lg:order-0">
+                    <button class="relative text-gray-600 font-medium hover:font-bold hover:text-black hidden lg:block">Home</button>
+                    <button class="relative text-gray-600 font-medium hover:font-bold hover:text-black hidden lg:block">Booking</button>
+                    <button class="relative text-gray-600 font-medium hover:font-bold hover:text-black hidden lg:block">Promo</button>
+                    <button class="relative text-gray-600 font-medium hover:font-bold hover:text-black hidden lg:block">Help</button>
+                </div>
+                <!-- Location Details -->
+                <div id="loc" class="gap-2 items-center hidden lg:flex">
+                    <div id="location-detail" class="flex flex-col">
+                        <p class="text-md lg:text-lg">Your location</p>
+                        <p class="text-blue-500 font-semibold text-xl lg:text-2xl">Indonesia</p>
+                    </div>
+                    <img src="assets/img/location-navbar.svg" alt="location" class="w-20" />
+                </div>
             </div>
         </nav>
+
+        <!-- Menu -->
+        
 
         <!-- Hero section -->
         <header id="hero" style="background-image: url('assets/img/background-image.png')" class="mt-40 h-dvh bg-cover rounded-t-3xl flex items-center justify-center">
@@ -101,11 +112,13 @@
 
         <!-- Start your adventure section -->
         <section id="start-your-adventure" class="mt-16 flex flex-col items-center gap-10">
-            <h1 class="text-5xl">Start Your Adventure</h1>
-            <div id="cars-card1" class="w-10/12 flex justify-center gap-6">
-                <img src="assets/img/left-arrow.svg" alt="" />
+            <div id="start-your-adventure-title" class="w-3/5 lg:w-10/12 flex items-center justify-center">
+                <h1 class="text-4xl text-center leading-normal lg:text-5xl">Start Your Adventure</h1>
+            </div>
+            <div id="cars-card1" class="w-3/5 flex flex-col justify-center gap-6 lg:w-10/12 lg:flex-row">
+                <img src="assets/img/left-arrow.svg" alt="" class="hidden lg:block">
                 <!-- Car Card 1 -->
-                <div class="card relative shadow-md rounded-2xl p-6 flex flex-col gap-4">
+                <a href="pages/detail-page.html" class="card relative shadow-md rounded-2xl p-6 flex flex-col gap-4">
                     <span class="bg-yellow-500 px-3 py-1 rounded-lg absolute top-6 left-6 flex items-center justify-center w-fit text-sm font-medium">Popular</span>
                     <img src="assets/img/car-hero.png" alt="" class="w-10/12" />
                     <div id="car1-caption" class="text-blue-500 border-b-2 border-blue-500 mb-5">
@@ -122,8 +135,9 @@
                             <img src="assets/img/seat.svg" alt="Seat" class="w-1/5" />
                         </div>
                     </div>
-                </div>
-                <div class="card relative shadow-md rounded-2xl p-6 flex flex-col gap-4">
+                </a>
+                <!-- Car Card 2 -->
+                <a href="pages/detail-page.html" class="card relative shadow-md rounded-2xl p-6 flex flex-col gap-4">
                     <span class="bg-yellow-500 px-3 py-1 rounded-lg absolute top-6 left-6 flex items-center justify-center w-fit text-sm font-medium">Popular</span>
                     <img src="assets/img/car-hero.png" alt="" class="w-10/12" />
                     <div id="car1-caption" class="text-blue-500 border-b-2 border-blue-500 mb-5">
@@ -140,8 +154,9 @@
                             <img src="assets/img/seat.svg" alt="Seat" class="w-1/5" />
                         </div>
                     </div>
-                </div>
-                <div class="card relative shadow-md rounded-2xl p-6 flex flex-col gap-4">
+                </a>
+                <!-- Car Card 3 -->
+                <a href="pages/detail-page.html" class="card relative shadow-md rounded-2xl p-6 flex flex-col gap-4">
                     <span class="bg-yellow-500 px-3 py-1 rounded-lg absolute top-6 left-6 flex items-center justify-center w-fit text-sm font-medium">Popular</span>
                     <img src="assets/img/car-hero.png" alt="" class="w-10/12" />
                     <div id="car1-caption" class="text-blue-500 border-b-2 border-blue-500 mb-5">
@@ -158,8 +173,8 @@
                             <img src="assets/img/seat.svg" alt="Seat" class="w-1/5" />
                         </div>
                     </div>
-                </div>
-                <img src="assets/img/left-arrow.svg" alt="" class="transform rotate-y-180" />
+                </a>
+                <img src="assets/img/left-arrow.svg" alt="" class="transform rotate-y-180 hidden lg:block" />
             </div>
         </section>
 
@@ -238,5 +253,8 @@
                 <a href="index.html" id="rent-domain" class="text-white px-16 py-4 rounded-full inset-shadow-sm inset-shadow-gray-400">Rent.com</a>
             </div>
         </footer>
+
+        <!-- Scripts -->
+        <script src="assets/js/landingpage-script.js"></script>
     </body>
 </html>
