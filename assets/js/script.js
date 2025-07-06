@@ -1,5 +1,3 @@
-const navbar = document.getElementById("menu");
-
 document.getElementById("menu-btn").addEventListener("click", function () {
     document.getElementById("menu").style.display = "block";
 });
