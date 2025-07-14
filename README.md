@@ -4,7 +4,7 @@ Repo ini berisi tantangan yang saya terima dari organisasi yang saya ikuti yaitu
 
 ## Versi Publik
 
-Repo ini berisi file-file source code untuk pembuatan website. Anda dapat melihat website dari repo ini dengan mengunduh repo ini dengan cara di bawah lalu jalankan file index.html, atau dapat melalui <a href="https://hafizarul.github.io/AMCC-Web-Frontend-Challenge/">link berikut</a>.
+Repo ini berisi file-file source code untuk pembuatan website. Anda dapat melihat website dari repo ini dengan mengunduh repo ini dengan cara di bawah lalu jalankan file index.html, atau dapat melalui <a href="https://hafizarul.github.io/AMCC-Web-Frontend-Challenge/" target="_blank">link berikut</a>.
 
 ## Cara Mengunduh Source Code dalam Repo Ini
 Untuk membuka hasil tampilan web nya Anda dapat melakukan salah satu dari 2 cara berikut :
