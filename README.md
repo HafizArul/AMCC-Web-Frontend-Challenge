@@ -2,6 +2,10 @@
 
 Repo ini berisi tantangan yang saya terima dari organisasi yang saya ikuti yaitu AMCC (Amikom Computer Club). Bertujuan untuk dijadikan portofolio *Web Frontend Development* untuk saya dan teman-teman saya yang ikut berpartisipasi dan berkontribusi di repo ini. Berisi 3 file HTML, 1 file CSS, dan 1 file Javascript. File-file ini adalah file inti yang akan ditampilkan atau diperlihatkan kepada user. Anda dapat membuka source code nya hanya dengan mengklik salah satu file. Ini memungkinkan Anda untuk melihat source code nya saja tanpa melihat tampilan webnya.
 
+## Versi Publik
+
+Repo ini berisi file-file source code untuk pembuatan website. Anda dapat melihat website dari repo ini dengan mengunduh repo ini dengan cara di bawah lalu jalankan file index.html, atau dapat melalui <a href="https://hafizarul.github.io/AMCC-Web-Frontend-Challenge/">link berikut</a>.
+
 ## Cara Mengunduh Source Code dalam Repo Ini
 Untuk membuka hasil tampilan web nya Anda dapat melakukan salah satu dari 2 cara berikut :
 ### 1. Download .zip
